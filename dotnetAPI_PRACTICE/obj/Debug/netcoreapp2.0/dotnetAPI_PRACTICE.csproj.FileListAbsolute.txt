@@ -1,0 +1,11 @@
+C:\xampp\htdocs\dotnetAPI_PRACTICE\dotnetAPI_PRACTICE\bin\Debug\netcoreapp2.0\dotnetAPI_PRACTICE.deps.json
+C:\xampp\htdocs\dotnetAPI_PRACTICE\dotnetAPI_PRACTICE\bin\Debug\netcoreapp2.0\dotnetAPI_PRACTICE.runtimeconfig.json
+C:\xampp\htdocs\dotnetAPI_PRACTICE\dotnetAPI_PRACTICE\bin\Debug\netcoreapp2.0\dotnetAPI_PRACTICE.runtimeconfig.dev.json
+C:\xampp\htdocs\dotnetAPI_PRACTICE\dotnetAPI_PRACTICE\bin\Debug\netcoreapp2.0\dotnetAPI_PRACTICE.dll
+C:\xampp\htdocs\dotnetAPI_PRACTICE\dotnetAPI_PRACTICE\bin\Debug\netcoreapp2.0\dotnetAPI_PRACTICE.pdb
+C:\xampp\htdocs\dotnetAPI_PRACTICE\dotnetAPI_PRACTICE\obj\Debug\netcoreapp2.0\dotnetAPI_PRACTICE.csprojResolveAssemblyReference.cache
+C:\xampp\htdocs\dotnetAPI_PRACTICE\dotnetAPI_PRACTICE\obj\Debug\netcoreapp2.0\dotnetAPI_PRACTICE.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\dotnetAPI_PRACTICE\dotnetAPI_PRACTICE\obj\Debug\netcoreapp2.0\dotnetAPI_PRACTICE.AssemblyInfoInputs.cache
+C:\xampp\htdocs\dotnetAPI_PRACTICE\dotnetAPI_PRACTICE\obj\Debug\netcoreapp2.0\dotnetAPI_PRACTICE.AssemblyInfo.cs
+C:\xampp\htdocs\dotnetAPI_PRACTICE\dotnetAPI_PRACTICE\obj\Debug\netcoreapp2.0\dotnetAPI_PRACTICE.dll
+C:\xampp\htdocs\dotnetAPI_PRACTICE\dotnetAPI_PRACTICE\obj\Debug\netcoreapp2.0\dotnetAPI_PRACTICE.pdb

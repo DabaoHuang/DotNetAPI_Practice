@@ -8,7 +8,6 @@ namespace Book
     {
         static void Main(string[] args)
         {
-            Program B = new Program();
             //int[] books = { 2, 5, 1, 0, 0 };
             String s;
             Console.WriteLine("每本書100元\n兩本相同9折\n三本相同8折\n四本相同7折\n");
@@ -19,33 +18,32 @@ namespace Book
 
             if (books.Length != 5)
             {
-                B.Cexit("請確實輸入A~E的數量");
+                Cexit("請確實輸入A~E的數量");
             } // end if
 
             for(int i =0; i < books.Length; i++)
             {
                 count = Convert.ToInt32(books[i]);
-                total += B.Caculate(count);
+                total += Caculate(count);
             } // end for
 
-            B.Cexit("共 $"+total.ToString() + " 元");
+            Cexit("共 $"+total.ToString() + " 元");
         } // end static
 
-        public void Cexit(String msg) // exit
+        static void Cexit(String msg) // exit
         {
             Console.WriteLine(msg+"\nPress any key");
             Console.ReadKey();
             Environment.Exit(0);
         } // end public void
 
-        public int Caculate(int count) // 計算 / 調整價格
+        static int Caculate(int count) // 計算 / 調整價格
         {
-            Program B = new Program();
-            double Discount = B.GetDiscount(count);
+            double Discount = GetDiscount(count);
             return Convert.ToInt32((int)count * Discount * 100);
         } // end public
 
-        public double GetDiscount(int num) // 只丟折扣
+        static double GetDiscount(int num) // 只丟折扣
         {
             double d = 0;
             if (num > 4) d = 0.7;

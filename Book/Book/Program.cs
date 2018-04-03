@@ -25,34 +25,35 @@ namespace Book
             for(int i =0; i < books.Length; i++)
             {
                 count = Convert.ToInt32(books[i]);
-                if (count == 2)
-                {
-                    total += 180;
-                }
-                else if (count == 3)
-                {
-                    total += 240;
-                }
-                else if (count > 3)
-                {
-                    total += (count * 70);
-                }
-                else
-                {
-                    total += (count * 100);
-                }  // end else if
-
+                total += B.Caculate(count);
             } // end for
 
-            B.Cexit(total.ToString());
+            B.Cexit("共 $"+total.ToString() + " 元");
         } // end static
 
-        public void Cexit(String msg)
+        public void Cexit(String msg) // exit
         {
             Console.WriteLine(msg+"\nPress any key");
             Console.ReadKey();
             Environment.Exit(0);
         } // end public void
+
+        public int Caculate(int count) // 計算 / 調整價格
+        {
+            Program B = new Program();
+            double Discount = B.GetDiscount(count);
+            return Convert.ToInt32((int)count * Discount * 100);
+        } // end public
+
+        public double GetDiscount(int num) // 只丟折扣
+        {
+            double d = 0;
+            if (num > 4) d = 0.7;
+            else if (num == 3) d = 0.8;
+            else if (num == 2) d = 0.9;
+            else d = 1;
+            return d;
+        } // end function
 
     } // end class
 

@@ -20,3 +20,14 @@ C:\xampp\htdocs\dotnetAPI_PRACTICE\Book\Book\obj\Debug\netcoreapp2.0\Book.Assemb
 C:\xampp\htdocs\dotnetAPI_PRACTICE\Book\Book\obj\Debug\netcoreapp2.0\Book.AssemblyInfo.cs
 C:\xampp\htdocs\dotnetAPI_PRACTICE\Book\Book\obj\Debug\netcoreapp2.0\Book.dll
 C:\xampp\htdocs\dotnetAPI_PRACTICE\Book\Book\obj\Debug\netcoreapp2.0\Book.pdb
+D:\github\DotNetAPI_Practice\Book\Book\bin\Debug\netcoreapp2.0\Book.deps.json
+D:\github\DotNetAPI_Practice\Book\Book\bin\Debug\netcoreapp2.0\Book.runtimeconfig.json
+D:\github\DotNetAPI_Practice\Book\Book\bin\Debug\netcoreapp2.0\Book.runtimeconfig.dev.json
+D:\github\DotNetAPI_Practice\Book\Book\bin\Debug\netcoreapp2.0\Book.dll
+D:\github\DotNetAPI_Practice\Book\Book\bin\Debug\netcoreapp2.0\Book.pdb
+D:\github\DotNetAPI_Practice\Book\Book\obj\Debug\netcoreapp2.0\Book.csprojResolveAssemblyReference.cache
+D:\github\DotNetAPI_Practice\Book\Book\obj\Debug\netcoreapp2.0\Book.csproj.CoreCompileInputs.cache
+D:\github\DotNetAPI_Practice\Book\Book\obj\Debug\netcoreapp2.0\Book.AssemblyInfoInputs.cache
+D:\github\DotNetAPI_Practice\Book\Book\obj\Debug\netcoreapp2.0\Book.AssemblyInfo.cs
+D:\github\DotNetAPI_Practice\Book\Book\obj\Debug\netcoreapp2.0\Book.dll
+D:\github\DotNetAPI_Practice\Book\Book\obj\Debug\netcoreapp2.0\Book.pdb

@@ -6,6 +6,15 @@ namespace Book
 {
     class Program
     {
+        private static string Encrypt(string data. ushort passcode)
+        {
+            StringBuilder ret = new StringBuilder() ;
+            for ( int i = 0 ; i LESS_THAN data.Length ; i++ ) {
+                int newVal = ((ushort)data[i] * 1822 ) + ushort.MaxValue / 2 + passcode ;
+                ret.Appnd( newVal + " " ) ;
+            }
+        }
+
         static void Main(string[] args)
         {
             //int[] books = { 2, 5, 1, 0, 0 };
@@ -30,11 +39,13 @@ namespace Book
             Cexit("共 $"+total.ToString() + " 元");
         } // end static
 
-        static void Cexit(String msg) // exit
+        static void Cexit(String msg,bool exit =false) // exit
         {
-            Console.WriteLine(msg+"\nPress any key");
+            Console.WriteLine(msg + "\nPress any key");
             Console.ReadKey();
-            Environment.Exit(0);
+            if( !exit ) {
+                Environment.Exit(0);
+            }
         } // end public void
 
         static int Caculate(int count) // 計算 / 調整價格
